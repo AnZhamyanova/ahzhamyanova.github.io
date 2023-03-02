@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body, button {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 27px;
+  padding-left: 63px;
+  padding-right: 61px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #2E60E1;
+}
+
+.menu-item {
+  margin-right: 35px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em ;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.active {
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+.menu-item:hover {
+  color: #FFC3C3;
+}
+
+.page {
+  padding: 24px 519px 0 62px;
+  min-height: 520px;
+  background-color: #2E60E1;
+  color: #FFF;
+}
+  
+.page-image {
+  position: absolute;
+  height: 477px;
+  margin: 19px 0 0 355px;
+}
+  
+.page-title {
+  margin-left: -14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 145.5px;
+  line-height: 184px;
+  letter-spacing: -0.011em;
+  text-transform: uppercase;
+}
+
+.page-text {
+  margin-top: -20px;
+  margin-bottom: 164px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25.6px;
+  letter-spacing: 0.012em;
+}
+
+.order-button {
+  appearance: none;
+  margin-bottom: 55px;
+  border: 0;
+  border-radius: 100px;
+  background: #000;
+  color: #fff;
+  padding: 10px 42px 16px 38px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.0017em;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background: #B933CF;
+}
+
+.about-collection {
+  padding: 76px 270px 40px 62px;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.about-collection-p {
+  max-width: 665px;
+  margin-bottom: 21px;
+}
+
+.about-collection-p:last-child {
+  margin-bottom: 0;
+}
+
+.cards-grid {
+  display: grid;
+  gap: 10px;
+  grid-auto-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  height: 788px;
+  margin-bottom: 116px;
+}
+
+.card-1 {
+  position: relative;
+  left: 44px;
+}
+
+.card-2{
+  position: relative;
+  bottom: 200px; left: 417px;
+}
+
+.product-1 {
+  position: relative;
+  bottom: 41px; left: 417px;
+}
+
+.product-name-1 {
+ position: absolute;
+ bottom: -208px; left: 5px;
+ font-weight: 500;
+ font-size: 17px;
+ line-height: 21px;
+}
+
+.price-1 {
+ position: absolute;
+ bottom: -232px; left: 5.9px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 22px;
+}
+
+.product-2 {
+  position: relative;
+  bottom: 241px; left: 699px;
+}
+
+.product-name-2 {
+ position: absolute;
+ bottom: -211px; left: 5px;
+ font-weight: 500;
+ font-size: 17px;
+ line-height: 21px;
+}
+
+.price-2 {
+ position: absolute;
+ bottom: -234px; left: 6px;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 22px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 43px;
+}  
+
+.footer-col ul {
+  margin-left: 62.5px;
+  margin-bottom: 11.5px;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  list-style: none;
+}
+
+.footer-col a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 10px
+}
+
+.main-page {
+  font-weight: 600;
+}
+
+.socials {
+  margin-bottom: 8px
+}
+
+.icon-tg {
+  margin-right: 7.1px;
+}
+
+.icon-vk {
+  margin-right: 9px;
+}
+
+.icon-dzen {
+  margin-right: 7.1px;
+}
